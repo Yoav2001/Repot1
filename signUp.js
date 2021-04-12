@@ -3,7 +3,7 @@ function validate()
 			if (document.myForm.txtfname.value == "") 
 			{
 				alert("Please Enter First Name");
-				document.myForm.txtfname.focus();
+				document.myForm.focus();
 				return false;
 			}
 
